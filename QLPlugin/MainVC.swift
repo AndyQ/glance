@@ -109,12 +109,16 @@ class MainVC: NSViewController, QLPreviewingController {
 			// Generate file preview
 			let previewInitializer = previewInitializerType.init()
 			let previewVC = try previewInitializer.createPreviewVC(file: file)
+			previewVC.view.translatesAutoresizingMaskIntoConstraints = false
 
 			// Add `PreviewVC` as a child view controller
 			addChild(previewVC)
-			previewVC.view.autoresizingMask = [.height, .width]
-			previewVC.view.frame = view.frame
 			view.addSubview(previewVC.view)
+
+			previewVC.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+			previewVC.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+			previewVC.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+			previewVC.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
 
 			// Update stats
 			stats.increaseStatsCounts(fileExtension: file.url.pathExtension)

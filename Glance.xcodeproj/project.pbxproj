@@ -842,7 +842,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ./HTMLConverter/\ngo build --buildmode=c-archive -ldflags \"-s -w\" -o ./htmlconverter.a\n";
+			shellScript = "#cd ./HTMLConverter/\n#go build --buildmode=c-archive -ldflags \"-s -w\" -o ./htmlconverter.a\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -927,7 +927,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QLPlugin/Info.plist;
@@ -941,7 +941,7 @@
 					"$(PROJECT_DIR)/HTMLConverter",
 				);
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.Glance.QLPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.Glance.QLPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/**";
@@ -956,7 +956,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QLPlugin/Info.plist;
@@ -970,7 +970,7 @@
 					"$(PROJECT_DIR)/HTMLConverter",
 				);
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.Glance.QLPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.Glance.QLPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/**";
@@ -1101,7 +1101,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Glance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1109,7 +1109,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.Glance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.Glance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1125,7 +1125,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Glance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1133,7 +1133,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.Glance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.Glance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1144,7 +1144,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				INFOPLIST_FILE = GlanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1152,7 +1152,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.GlanceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.GlanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1163,7 +1163,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AKCUQXMXK;
+				DEVELOPMENT_TEAM = A4ZM73UFF5;
 				INFOPLIST_FILE = GlanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1171,7 +1171,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samuelmeuli.GlanceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyqua.GlanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
